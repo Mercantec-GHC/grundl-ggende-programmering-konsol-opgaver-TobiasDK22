@@ -11,9 +11,14 @@ int course3Credit = 4;
 int course4Credit = 4;
 int course5Credit = 3;
 
-Console.WriteLine(studentName);
+int GennemsnitKaraktere = (course1Credit + course2Credit + course3Credit + course4Credit + course5Credit) / 5;
+
+
+Console.WriteLine("Elevens Navn " + studentName);
 Console.WriteLine("Karaktere for " + course1Name + " = " + course1Credit);
 Console.WriteLine("Karaktere for " + course2Name + " = " + course2Credit);
 Console.WriteLine("Karaktere for " + course3Name + " = " + course3Credit);
 Console.WriteLine("Karaktere for " + course4Name + " = " + course4Credit);
 Console.WriteLine("Karaktere for " + course5Name + " = " + course5Credit);
+Console.WriteLine("Gennemsnitskaratere er = " + GennemsnitKaraktere);
+
