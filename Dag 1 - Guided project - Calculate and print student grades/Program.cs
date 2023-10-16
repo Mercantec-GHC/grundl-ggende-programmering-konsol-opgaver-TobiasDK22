@@ -1,5 +1,7 @@
 ﻿// initialize variables - graded assignments 
 int currentAssignments = 5;
+int AmountOfPeople = 4;
+
 
 int sophia1 = 93;
 int sophia2 = 87;
@@ -24,3 +26,11 @@ int jeong2 = 92;
 int jeong3 = 98;
 int jeong4 = 100;
 int jeong5 = 97;
+
+double sophiaGennemsnit = (sophia1 + sophia2 + sophia3 + sophia4 + sophia5) / currentAssignments;
+double nicolasGennemsnit = (nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5) / currentAssignments;
+double zahirahGennemsnit = (zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5) / currentAssignments;
+double jeongGennemsnit = (jeong1 + jeong2 + jeong3 + jeong4 + jeong5) / currentAssignments;
+double Gennemsnit = (sophiaGennemsnit + nicolasGennemsnit + zahirahGennemsnit + jeongGennemsnit) / AmountOfPeople;
+
+Console.WriteLine("Gennemsnit for alle = " + Gennemsnit);
